@@ -207,7 +207,7 @@
     </li>
 
     <li>
-      <strong>Zakirullah</strong>, Li, L., Khashan, M. M., Abdalla, B., Abdeljawad, T.
+      <strong>Zakirullah</strong>, Shakir,U., Mohammadi, B,. Nouf A, A,. Zahir, S.
       Analysis of herpes simplex virus using ABC fractional-order dynamics.
        <em>Under review</em>.
     </li>
