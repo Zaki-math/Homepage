@@ -187,8 +187,8 @@
     </li>
 
     <li>
-      <strong>Zakirullah</strong>, Lin, H., Liang, L.
-      Theoretical and Computational Analysis of a Novel Fractional-Order Mathematical Model for HIV Transmission Dynamics. Zakirullaha, Kamal Shahb,M. Motawi Khashanc,Bahaaeldin Abdallab, Thabet Abdeljawadb
+      <strong>Zakirullah</strong>, Kamal Shahb,M. Motawi Khashanc,Bahaaeldin Abdallab, Thabet Abdeljawadb.
+      Theoretical and Computational Analysis of a Novel Fractional-Order Mathematical Model for HIV Transmission Dynamics. 
       <em>Accepted for publication</em>.
     </li>
   </ul>
@@ -211,21 +211,19 @@
     <li>
       <strong>Zakirullah</strong>, Li, L., Khashan, M. M., Abdalla, B., Abdeljawad, T.
       Analysis of herpes simplex virus using ABC fractional-order dynamics.
-      <em>Under review</em>,
-      <em>Alexandria Engineering Journal</em> (Elsevier).
+       <em>Under review</em>.
     </li>
 
     <li>
       <strong>Zakirullah</strong>, Khashan, M. M., Abdalla, B., Abdeljawad, T.
       Tick-borne encephalitis transmission dynamics: a model-based strategy for epidemic control.
-      <em>Under review</em>,
-      <em>Applied Mathematical Modelling</em>.
+       <em>Under review</em>.
     </li>
 
     <li>
       <strong>Zakirullah</strong>, Lin, H., Liang, L.
       Bifurcation and optimal control analysis of a bacteria–phage interaction mathematical model.
-      <em>Accepted for publication</em>.
+       <em>Under review</em>.
     </li>
   </ul>
 </section>
