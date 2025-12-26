@@ -113,10 +113,7 @@
     <section>
       <h2>Research</h2>
       <p>
-        I am a biomathematician with research interests in
-        dynamical, ordinary and partial differential equations (ODEs and PDEs),
-        mathematical modelling, infectious disease and phage dynamics, and fishery models,
-        with a focus on qualitative and quantitative analysis.
+          I work in biomathematics with research interests in dynamical systems, ordinary and partial differential equations (ODEs and PDEs), mathematical modelling, infectious disease and phage dynamics, and fishery models, with a focus on both qualitative and quantitative analysis.
       </p>
 
       <p>
@@ -145,7 +142,7 @@
         <li>
           <strong>B.Sc in Mathematics</strong><br />
           University of Malakand, Lower Dir<br />
-          15/09/2028 – 29/04/2021<br />
+          15/09/2018 – 29/04/2021<br />
           City: Lower Dir | Country: Pakistan<br />
           Website:
           <a href="https://www.uom.edu.cn/" target="_blank">https://www.uom.edu.cn/</a><br />
