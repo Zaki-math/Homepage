@@ -1,3 +1,0 @@
-# Zakirullah
-Academic Homepage
-
