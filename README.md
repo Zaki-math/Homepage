@@ -108,9 +108,8 @@
     </p>
   </div>
 
-  <div class="photo">
-    <img src="profile.jpg" alt="Portrait photo" />
-  </div>
+ <img src="profile.jpg" alt="Portrait photo" width="140" />
+
 </header>
 
 
