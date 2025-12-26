@@ -91,29 +91,30 @@
 <body>
   <div class="page">
 
-    <!-- Header -->
-    <header>
-      <div>
-        <h1>Zakirullah</h1>
-        <div class="contact">
-          Department of Mathematics<br />
-          University of Electronic Science and Technology of China<br /><br />
-          Postal address: 2006 Xiyuan Avenue, West Hi-Tech Zone, Chengdu, Sichuan, China<br />
-          Phone: +(86) 183 8213 0061<br />
-          Email: <a href="mailto:zakirullahbzt@gmail.com">zakirullahbzt@gmail.com</a>
-            <p>
-    ORCID ID:
-    <a href="https://orcid.org/0000-0001-8916-6717" target="_blank">
-      0000-0001-8916-6717
-    </a>
-  </p>
-        </div>
-      </div>
+<!-- Header -->
+<header>
+  <div>
+    <h1>Zakirullah</h1>
+    <div class="contact">
+      Department of Mathematics<br />
+      University of Electronic Science and Technology of China<br /><br />
+      Postal address: 2006 Xiyuan Avenue, West Hi-Tech Zone, Chengdu, Sichuan, China<br />
+      Phone: +(86) 183 8213 0061<br />
+      Email: <a href="mailto:zakirullahbzt@gmail.com">zakirullahbzt@gmail.com</a>
+    </div>
+    <p>
+      ORCID ID:
+      <a href="https://orcid.org/0000-0001-8916-6717" target="_blank">
+        0000-0001-8916-6717
+      </a>
+    </p>
+  </div>
 
-      <div class="photo">
-        <img src="profile.jpg" alt="Portrait photo" />
-      </div>
-    </header>
+  <div class="photo">
+    <img src="profile.jpg" alt="Portrait photo" />
+  </div>
+</header>
+
 
   <!-- Research -->
 <section>
