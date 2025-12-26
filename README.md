@@ -1,7 +1,7 @@
 <md lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title> -Academic Homepage</title>
+  <title> Zakirullah-Academic Homepage</title>
 
   <style>
     body {
@@ -93,7 +93,6 @@
 <!-- Header -->
 <header>
   <div>
-    <h1>Zakirullah</h1>
     <div class="contact">
       Department of Mathematics<br />
       University of Electronic Science and Technology of China<br /><br />
