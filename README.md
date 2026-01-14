@@ -23,7 +23,7 @@ header {
   align-items: flex-start;
 }
 
-
+/* Name */
 h1 {
   font-size: 36px;
   margin: 0 0 10px;
@@ -36,10 +36,12 @@ h1 {
   line-height: 1.5;
 }
 
+/* Photo */
 .photo img {
   width: 200px;
 }
 
+/* Sidebar */
 .side-widget {
   margin-top: 10px;
   font-size: 14px;
@@ -66,8 +68,9 @@ h1 {
   font-family: inherit;
 }
 
+/* 🔧 FIXED: reduced spacing after header */
 section {
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 section h2 {
@@ -86,7 +89,7 @@ section h2 {
     <h1>Zakirullah</h1>
     <div class="contact">
       Department of Mathematics<br>
-      University of Electronic Science and Technology of China<br><br>
+      University of Electronic Science and Technology of China<br>
       Email:
       <a href="mailto:zakirullahbzt@gmail.com">zakirullahbzt@gmail.com</a>
     </div>
