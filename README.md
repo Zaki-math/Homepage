@@ -114,6 +114,7 @@
   margin-top: 15px;
   font-size: 14px;
 }
+</header>
 
 #heartBtn {
   background: none;
@@ -169,9 +170,6 @@
     document.getElementById("likeCount").innerText = "Likes: " + count;
   };
 </script>
-
-</header>
-
 
   <!-- Research -->
 <section>
