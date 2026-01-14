@@ -110,6 +110,65 @@
   </div>
 
  <img src="profile.jpg" alt="Portrait photo" width="120" />
+.side-widget {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+#heartBtn {
+  background: none;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  padding: 6px 10px;
+  font-size: 16px;
+}
+
+#heartBtn:hover {
+  background: #eee;
+}
+
+.side-widget input,
+.side-widget textarea,
+.side-widget button {
+  width: 100%;
+  margin-top: 6px;
+  padding: 6px;
+  font-family: inherit;
+}
+
+.side-widget {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+#heartBtn {
+  background: none;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  padding: 6px 10px;
+  font-size: 16px;
+}
+
+#heartBtn:hover {
+  background: #eee;
+}
+
+.side-widget input,
+.side-widget textarea,
+.side-widget button {
+  width: 100%;
+  margin-top: 6px;
+  padding: 6px;
+  font-family: inherit;
+}
+
+<script>
+  let count = 0;
+  document.getElementById("heartBtn").onclick = function () {
+    count++;
+    document.getElementById("likeCount").innerText = "Likes: " + count;
+  };
+</script>
 
 </header>
 
