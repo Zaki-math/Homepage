@@ -12,20 +12,9 @@ body {
 
 .page {
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 40px 80px;
+  margin: auto;
+  padding: 40px;
   background: #f7f7f7;
-  background-image: linear-gradient(
-    45deg,
-    rgba(0,0,0,0.02) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(0,0,0,0.02) 50%,
-    rgba(0,0,0,0.02) 75%,
-    transparent 75%,
-    transparent
-  );
-  background-size: 40px 40px;
 }
 
 header {
@@ -79,120 +68,48 @@ h1 {
 }
 
 section {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 section h2 {
   font-size: 26px;
-  font-weight: normal;
   border-bottom: 1px solid #aaa;
   padding-bottom: 6px;
-  margin-bottom: 20px;
-}
-
-p {
-  max-width: 900px;
-  line-height: 1.6;
-  font-size: 16px;
-}
-
-ul {
-  max-width: 900px;
-  font-size: 15px;
-  line-height: 1.6;
-}
-
-a {
-  color: #1a4fff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 </style>
+</head>
 
+<body>
+<div class="page">
 
-<!-- Header -->
 <header>
   <div>
-     <h1>Zakirullah</h1>
+    <h1>Zakirullah</h1>
     <div class="contact">
-      Department of Mathematics<br />
-      University of Electronic Science and Technology of China<br /><br />
-      Postal address: 2006 Xiyuan Avenue, West Hi-Tech Zone, Chengdu, Sichuan, China<br />
-      Phone: +(86) 183 8213 0061<br />
-      Email: <a href="mailto:zakirullahbzt@gmail.com">zakirullahbzt@gmail.com</a>
+      Department of Mathematics<br>
+      University of Electronic Science and Technology of China<br><br>
+      Email:
+      <a href="mailto:zakirullahbzt@gmail.com">zakirullahbzt@gmail.com</a>
     </div>
-    <p>
-      ORCID ID:
-      <a href="https://orcid.org/0000-0001-8916-6717" target="_blank">
-        0000-0001-8916-6717
-      </a>
-    </p>
   </div>
 
- <img src="profile.jpg" alt="Portrait photo" width="120" />
-.side-widget {
-  margin-top: 15px;
-  font-size: 14px;
-}
+  <div class="photo">
+    <img src="profile.jpg" alt="Profile Photo">
+
+    <div class="side-widget">
+      <button id="heartBtn">❤️ Like</button>
+      <div id="likeCount">Likes: 0</div>
+
+      <form>
+        <input type="email" placeholder="Your email" required>
+        <input type="text" placeholder="Subject" required>
+        <textarea placeholder="Your message"></textarea>
+        <input type="file" accept="application/pdf">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
 </header>
-
-#heartBtn {
-  background: none;
-  border: 1px solid #ccc;
-  cursor: pointer;
-  padding: 6px 10px;
-  font-size: 16px;
-}
-
-#heartBtn:hover {
-  background: #eee;
-}
-
-.side-widget input,
-.side-widget textarea,
-.side-widget button {
-  width: 100%;
-  margin-top: 6px;
-  padding: 6px;
-  font-family: inherit;
-}
-
-.side-widget {
-  margin-top: 15px;
-  font-size: 14px;
-}
-
-#heartBtn {
-  background: none;
-  border: 1px solid #ccc;
-  cursor: pointer;
-  padding: 6px 10px;
-  font-size: 16px;
-}
-
-#heartBtn:hover {
-  background: #eee;
-}
-
-.side-widget input,
-.side-widget textarea,
-.side-widget button {
-  width: 100%;
-  margin-top: 6px;
-  padding: 6px;
-  font-family: inherit;
-}
-
-<script>
-  let count = 0;
-  document.getElementById("heartBtn").onclick = function () {
-    count++;
-    document.getElementById("likeCount").innerText = "Likes: " + count;
-  };
-</script>
 
   <!-- Research -->
 <section>
