@@ -3,108 +3,110 @@
   <meta charset="UTF-8" />
    <title>Zakirullah – Academic Homepage</title>
 
-<style>
-body {
-  margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
-  background: #f3f3f3;
-}
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: #f3f3f3;
+    }
 
-.page {
-  max-width: 1200px;
-  margin: auto;
-  padding: 40px;
-  background: #f7f7f7;
-}
+    .page {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 40px 80px;
+      background: #f7f7f7;
+      background-image: linear-gradient(
+        45deg,
+        rgba(0,0,0,0.02) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(0,0,0,0.02) 50%,
+        rgba(0,0,0,0.02) 75%,
+        transparent 75%,
+        transparent
+      );
+      background-size: 40px 40px;
+    }
 
-header {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
-}
+    header {
+      display: grid;
+      grid-template-columns: 1fr 180px;
+      gap: 40px;
+      align-items: start;
+    }
 
-/* Name */
-h1 {
-  font-size: 36px;
-  margin: 0 0 10px;
-  font-weight: normal;
-}
+    h1 {
+      font-size: 36px;
+      margin: 0 0 10px;
+      font-weight: normal;
+    }
 
-.contact {
-  font-size: 14px;
-  color: #444;
-  line-height: 1.5;
-}
+    .contact {
+      font-size: 14px;
+      color: #444;
+      line-height: 1.5;
+    }
 
-/* Photo */
-.photo img {
-  width: 200px;
-}
+    .photo img {
+      width: 180px;
+      border-radius: 2px;
+    }
 
-/* Sidebar */
-.side-widget {
-  margin-top: 10px;
-  font-size: 14px;
-}
+    section {
+      margin-top: 50px;
+    }
 
-#heartBtn {
-  background: none;
-  border: 1px solid #aaa;
-  padding: 6px 10px;
-  cursor: pointer;
-  font-size: 16px;
-}
+    section h2 {
+      font-size: 26px;
+      font-weight: normal;
+      border-bottom: 1px solid #aaa;
+      padding-bottom: 6px;
+      margin-bottom: 20px;
+    }
 
-#heartBtn:hover {
-  background: #eee;
-}
+    p {
+      max-width: 900px;
+      line-height: 1.6;
+      font-size: 16px;
+    }
 
-.side-widget input,
-.side-widget textarea,
-.side-widget button {
-  width: 100%;
-  margin-top: 6px;
-  padding: 6px;
-  font-family: inherit;
-}
+    ul {
+      max-width: 900px;
+      font-size: 15px;
+      line-height: 1.6;
+    }
 
-/* 🔧 FIXED: reduced spacing after header */
-section {
-  margin-top: 15px;
-}
+    a {
+      color: #1a4fff;
+      text-decoration: none;
+    }
 
-section h2 {
-  font-size: 26px;
-  border-bottom: 1px solid #aaa;
-  padding-bottom: 6px;
-}
-</style>
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
 <body>
-<div class="page">
+  <div class="page">
 
-<header>
-  <div>
-    <h1>Zakirullah</h1>
-    <div class="contact">
-      Department of Mathematics<br>
-      University of Electronic Science and Technology of China<br>
-      Email:
-      <a href="mailto:zakirullahbzt@gmail.com">zakirullahbzt@gmail.com</a>
-    </div>
-  </div>
+    <!-- Header -->
+    <header>
+      <div>
+        <h1>Zakirullah</h1>
+        <div class="contact">
+          Department of Mathematics<br />
+          University of Electronic Science and Technology of China<br /><br />
+          Postal address: 2006 Xiyuan Avenue, West Hi-Tech Zone, Chengdu, Sichuan, China<br />
+          Phone: +(86) 183 8213 0061<br />
+          Email: <a href="mailto:zakirullahbzt@gmail.com">zakirullahbzt@gmail.com</a>
+        </div>
+      </div>
 
-  <div class="photo">
-    <img src="profile.jpg" alt="Profile Photo">
-  </div>
-</header>
-
-<!-- Sidebar BELOW header, NOT inside it -->
-<div class="side-widget">
-  <button id="heartBtn">❤️ Like</button>
-  <div id="likeCount">Likes: 0</div>
-</div>
+      <div class="photo">
+        <img src="profile.jpg" alt="Portrait photo" />
+      </div>
+    </header>
 
   <!-- Research -->
 <section>
