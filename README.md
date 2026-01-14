@@ -97,21 +97,22 @@ section h2 {
 
   <div class="photo">
     <img src="profile.jpg" alt="Profile Photo">
-
-    <div class="side-widget">
-      <button id="heartBtn">❤️ Like</button>
-      <div id="likeCount">Likes: 0</div>
-
-      <form>
-        <input type="email" placeholder="Your email" required>
-        <input type="text" placeholder="Subject" required>
-        <textarea placeholder="Your message"></textarea>
-        <input type="file" accept="application/pdf">
-        <button type="submit">Send</button>
-      </form>
-    </div>
   </div>
 </header>
+
+<!-- Sidebar BELOW header, NOT inside it -->
+<div class="side-widget">
+  <button id="heartBtn">❤️ Like</button>
+  <div id="likeCount">Likes: 0</div>
+
+  <form>
+    <input type="email" placeholder="Your email" required>
+    <input type="text" placeholder="Subject" required>
+    <textarea placeholder="Your message"></textarea>
+    <input type="file" accept="application/pdf">
+    <button type="submit">Send</button>
+  </form>
+</div>
 
   <!-- Research -->
 <section>
