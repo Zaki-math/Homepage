@@ -18,11 +18,11 @@ body {
 }
 
 header {
-  display: grid;
-  grid-template-columns: 1fr 200px;
+  display: flex;
   gap: 40px;
-  align-items: start;
+  align-items: flex-start;
 }
+
 
 h1 {
   font-size: 36px;
@@ -37,8 +37,7 @@ h1 {
 }
 
 .photo img {
-  width: 180px;
-  border-radius: 2px;
+  width: 200px;
 }
 
 .side-widget {
