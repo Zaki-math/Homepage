@@ -3,92 +3,115 @@
   <meta charset="UTF-8" />
    <title>Zakirullah – Academic Homepage</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      background: #f3f3f3;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background: #f3f3f3;
+}
 
-    .page {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 40px 40px 80px;
-      background: #f7f7f7;
-      background-image: linear-gradient(
-        45deg,
-        rgba(0,0,0,0.02) 25%,
-        transparent 25%,
-        transparent 50%,
-        rgba(0,0,0,0.02) 50%,
-        rgba(0,0,0,0.02) 75%,
-        transparent 75%,
-        transparent
-      );
-      background-size: 40px 40px;
-    }
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 40px 80px;
+  background: #f7f7f7;
+  background-image: linear-gradient(
+    45deg,
+    rgba(0,0,0,0.02) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(0,0,0,0.02) 50%,
+    rgba(0,0,0,0.02) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 40px 40px;
+}
 
-    header {
-      display: grid;
-      grid-template-columns: 1fr 180px;
-      gap: 40px;
-      align-items: start;
-    }
+header {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  gap: 40px;
+  align-items: start;
+}
 
-    h1 {
-      font-size: 36px;
-      margin: 0 0 10px;
-      font-weight: normal;
-    }
+h1 {
+  font-size: 36px;
+  margin: 0 0 10px;
+  font-weight: normal;
+}
 
-    .contact {
-      font-size: 14px;
-      color: #444;
-      line-height: 1.5;
-    }
+.contact {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+}
 
-    .photo img {
-      width: 180px;
-      border-radius: 2px;
-    }
+.photo img {
+  width: 180px;
+  border-radius: 2px;
+}
 
-    section {
-      margin-top: 50px;
-    }
+.side-widget {
+  margin-top: 10px;
+  font-size: 14px;
+}
 
-    section h2 {
-      font-size: 26px;
-      font-weight: normal;
-      border-bottom: 1px solid #aaa;
-      padding-bottom: 6px;
-      margin-bottom: 20px;
-    }
+#heartBtn {
+  background: none;
+  border: 1px solid #aaa;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
 
-    p {
-      max-width: 900px;
-      line-height: 1.6;
-      font-size: 16px;
-    }
+#heartBtn:hover {
+  background: #eee;
+}
 
-    ul {
-      max-width: 900px;
-      font-size: 15px;
-      line-height: 1.6;
-    }
+.side-widget input,
+.side-widget textarea,
+.side-widget button {
+  width: 100%;
+  margin-top: 6px;
+  padding: 6px;
+  font-family: inherit;
+}
 
-    a {
-      color: #1a4fff;
-      text-decoration: none;
-    }
+section {
+  margin-top: 50px;
+}
 
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
+section h2 {
+  font-size: 26px;
+  font-weight: normal;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+}
 
-<body>
-  <div class="page">
+p {
+  max-width: 900px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+ul {
+  max-width: 900px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+a {
+  color: #1a4fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+</style>
+
 
 <!-- Header -->
 <header>
