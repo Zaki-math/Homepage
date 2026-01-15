@@ -112,9 +112,7 @@
 <section>
   <h2>Research</h2>
   <p>
-    I work in biomathematics with research interests in dynamical systems, ordinary and partial differential equations (ODEs and PDEs),
-    mathematical modelling, infectious disease and phage dynamics, and fishery models,
-    with a focus on both qualitative and quantitative analysis.
+    I work in biomathematics, focusing on dynamical systems, ODEs and PDEs, fractals, and mathematical modeling, with applications to infectious disease, phage dynamics, and fishery models, addressing both qualitative and quantitative analyses.
   </p>
 </section>
 
