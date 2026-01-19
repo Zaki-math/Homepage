@@ -293,7 +293,7 @@
     </li>
 
     <li>
-      Eiman, A., <strong>Zakirullah</strong>, Rahman, N. U., Ullah, F.
+     <strong>Zakirullah</strong>, Eiman, A., Rahman, N. U., Ullah, F.
       Computation of approximate solution to COVID-19 mathematical model.
       <em>Journal of Mathematical Analysis and Modeling</em>,
       2(3), 2021.
