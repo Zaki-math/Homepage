@@ -110,6 +110,10 @@ section h2 {
           Postal address: 2006 Xiyuan Avenue, West Hi-Tech Zone, Chengdu, Sichuan, China<br />
           Phone: +(86) 183 8213 0061<br />
           Email: <a href="mailto:zakirullahbzt@gmail.com">zakirullahbzt@gmail.com</a>
+          ORCID:
+  <a href="https://orcid.org/0000-0001-8916-6717" target="_blank">
+    0000-0001-8916-6717
+  </a><br />
         </div>
       </div>
 
