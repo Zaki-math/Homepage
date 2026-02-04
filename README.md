@@ -102,20 +102,26 @@ section h2 {
 
     <!-- Header -->
     <header>
-      <div>
-        <h1>Zakirullah</h1>
-        <div class="contact">
-          Department of Mathematics<br />
-          University of Electronic Science and Technology of China<br /><br />
-          Postal address: 2006 Xiyuan Avenue, West Hi-Tech Zone, Chengdu, Sichuan, China<br />
-          Phone: +(86) 183 8213 0061<br />
-          Email: <a href="mailto:zakirullahbzt@gmail.com">zakirullahbzt@gmail.com</a>
-          ORCID:
+     <div class="contact">
+  Department of Mathematics<br />
+  University of Electronic Science and Technology of China<br /><br />
+
+  Postal address: 2006 Xiyuan Avenue, West Hi-Tech Zone, Chengdu, Sichuan, China<br />
+  Phone: +(86) 183 8213 0061<br />
+  Email: <a href="mailto:zakirullahbzt@gmail.com">zakirullahbzt@gmail.com</a><br />
+
+  ORCID:
   <a href="https://orcid.org/0000-0001-8916-6717" target="_blank">
     0000-0001-8916-6717
   </a><br />
-        </div>
-      </div>
+
+  Scopus Author ID:
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=YOUR_SCOPUS_ID"
+     target="_blank">
+     View profile
+  </a>
+</div>
+
 
       <div class="photo">
         <img src="profile.jpg" alt="Portrait photo" />
