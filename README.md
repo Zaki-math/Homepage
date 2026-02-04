@@ -171,11 +171,7 @@
 <section>
   <h2>Accepted Manuscripts</h2>
   <ul>
-    <li>
-      <strong>Zakirullah</strong>.
-      Stability and sensitivity insights into two-dose HPV vaccination effects.
-      <em>Accepted for publication</em>.
-    </li>
+   
 
     <li>
       <strong>Zakirullah</strong>, Kamal Shahb,M. Motawi Khashanc,Bahaaeldin Abdallab, Thabet Abdeljawadb.
@@ -233,7 +229,15 @@
   &nbsp;|&nbsp;
   <a href="1-s2.0-S0960077925017163-main.pdf">PDF</a>
 </li>
-    
+    <li>
+  <strong>Zakirullah.</strong>
+  Stability and sensitivity insights into two-dose HPV vaccination effects and cervical cancer.
+  <em>Journal of Applied Mathematics and Computing</em>, 72, 119 (2026).
+  <a href="https://doi.org/10.1007/s12190-026-02778-z">DOI</a>
+  &nbsp;|&nbsp;
+  <a href="https://link.springer.com/content/pdf/10.1007/s12190-026-02778-z.pdf">PDF</a>
+</li>
+
    <li>
   <strong>Zakirullah</strong>, Li, L., Shah, K., Abdalla, B., Abdeljawad, T.
   Using treatment and vaccination strategies to investigate transmission dynamics of an influenza mathematical model.
