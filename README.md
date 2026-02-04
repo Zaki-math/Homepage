@@ -12,7 +12,7 @@ body {
 }
 
     .page {
-  width: 100%;
+  width: 130%;
   margin: 0;
   padding: 60px 80px 100px;
   background: #f7f7f7;
