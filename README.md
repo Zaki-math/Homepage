@@ -12,8 +12,9 @@ body {
 }
 
     .page {
-  width: 130%;
-  margin: 1800;
+  max-width: 1600px;   /* ← increase this number */
+  width: 95%;
+  margin: 0 auto;
   padding: 60px 80px 100px;
   background: #f7f7f7;
   background-image: linear-gradient(
