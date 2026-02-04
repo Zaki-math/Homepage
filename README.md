@@ -4,29 +4,34 @@
    <title>Zakirullah – Academic Homepage</title>
 
   <style>
-    body {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      background: #f3f3f3;
-    }
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  background: #f3f3f3;
+}
+
 
     .page {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 40px 40px 80px;
-      background: #f7f7f7;
-      background-image: linear-gradient(
-        45deg,
-        rgba(0,0,0,0.02) 25%,
-        transparent 25%,
-        transparent 50%,
-        rgba(0,0,0,0.02) 50%,
-        rgba(0,0,0,0.02) 75%,
-        transparent 75%,
-        transparent
-      );
-      background-size: 40px 40px;
-    }
+  max-width: 1600px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 50px 60px 90px;
+  background: #f7f7f7;
+  background-image: linear-gradient(
+    45deg,
+    rgba(0,0,0,0.02) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(0,0,0,0.02) 50%,
+    rgba(0,0,0,0.02) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 40px 40px;
+}
+
+
 
     header {
       display: grid;
@@ -35,17 +40,19 @@
       align-items: start;
     }
 
-    h1 {
-      font-size: 36px;
-      margin: 0 0 10px;
-      font-weight: normal;
-    }
+  h1 {
+  font-size: 42px;
+  margin: 0 0 14px;
+  font-weight: normal;
+}
+
 
     .contact {
-      font-size: 14px;
-      color: #444;
-      line-height: 1.5;
-    }
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+
 
     .photo img {
       width: 180px;
@@ -56,25 +63,28 @@
       margin-top: 50px;
     }
 
-    section h2 {
-      font-size: 26px;
-      font-weight: normal;
-      border-bottom: 1px solid #aaa;
-      padding-bottom: 6px;
-      margin-bottom: 20px;
-    }
+section h2 {
+  font-size: 30px;
+  font-weight: normal;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+}
 
-    p {
-      max-width: 900px;
-      line-height: 1.6;
-      font-size: 16px;
-    }
 
-    ul {
-      max-width: 900px;
-      font-size: 15px;
-      line-height: 1.6;
-    }
+ p {
+  max-width: 1100px;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+
+ ul {
+  max-width: 1100px;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
 
     a {
       color: #1a4fff;
