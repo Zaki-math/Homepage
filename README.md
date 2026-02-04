@@ -114,12 +114,6 @@ section h2 {
   <a href="https://orcid.org/0000-0001-8916-6717" target="_blank">
     0000-0001-8916-6717
   </a><br />
-
-  Scopus Author ID:
-  <a href="https://www.scopus.com/authid/detail.uri?authorId=YOUR_SCOPUS_ID"
-     target="_blank">
-     View profile
-  </a>
 </div>
 
 
