@@ -13,7 +13,7 @@ body {
 
     .page {
   max-width: 1600px;   /* ← increase this number */
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   padding: 60px 80px 100px;
   background: #f7f7f7;
