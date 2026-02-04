@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 18px;
+  font-size: 22px;
   background: #f3f3f3;
 }
 
