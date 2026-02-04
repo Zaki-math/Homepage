@@ -13,7 +13,7 @@ body {
 
     .page {
   width: 130%;
-  margin: 0;
+  margin: 1800;
   padding: 60px 80px 100px;
   background: #f7f7f7;
   background-image: linear-gradient(
