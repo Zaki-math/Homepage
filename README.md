@@ -178,7 +178,14 @@
       Theoretical and Computational Analysis of a Novel Fractional-Order Mathematical Model for HIV Transmission Dynamics. 
       <em>Accepted for publication</em>.
     </li>
+
+      <li>
+      <strong>Zakirullah</strong>, Khashan, M. M., Abdalla, B., Abdeljawad, T.
+      Tick-borne encephalitis transmission dynamics: a model-based strategy for epidemic control.
+       <em>Accepted for publication</em>.
+    </li>
   </ul>
+
 </section>
 <section>
   <h2>Manuscripts Under Review</h2>
@@ -201,11 +208,7 @@
        <em>Under review</em>.
     </li>
 
-    <li>
-      <strong>Zakirullah</strong>, Khashan, M. M., Abdalla, B., Abdeljawad, T.
-      Tick-borne encephalitis transmission dynamics: a model-based strategy for epidemic control.
-       <em>Under review</em>.
-    </li>
+  
 
     <li>
       <strong>Zakirullah</strong>, Lin, H., Liang, L.
