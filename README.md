@@ -7,16 +7,14 @@
 body {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 22px;
-  background: #f3f3f3;
+  font-size: 18px;
+  background: #eaeaea;
 }
 
-
     .page {
-  max-width: 1600px;
-  width: 95%;
-  margin: 0 auto;
-  padding: 50px 60px 90px;
+  width: 100%;
+  margin: 0;
+  padding: 60px 80px 100px;
   background: #f7f7f7;
   background-image: linear-gradient(
     45deg,
@@ -30,6 +28,7 @@ body {
   );
   background-size: 40px 40px;
 }
+
 
 
 
