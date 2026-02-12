@@ -183,15 +183,11 @@ section h2 {
 <section>
   <h2>Accepted Manuscripts</h2>
   <ul>
-   
-
-   <li>
-  <strong>Zakirullah</strong>, Kamal Shahb, M. Motawi Khashanc, Bahaaeldin Abdallab, Thabet Abdeljawadb.
+<li>
+  <span class="myname">Zakirullah</span>, Kamal Shahb, M. Motawi Khashanc, Bahaaeldin Abdallab, Thabet Abdeljawadb.
   Theoretical and Computational Analysis of a Novel Fractional-Order Mathematical Model for HIV Transmission Dynamics.
   <em>Accepted for publication</em>.
 </li>
-
-
       <li>
       <strong>Zakirullah</strong>, Khashan, M. M., Abdalla, B., Abdeljawad, T.
       Tick-borne encephalitis transmission dynamics: a model-based strategy for epidemic control.
