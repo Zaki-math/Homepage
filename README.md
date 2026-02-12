@@ -185,11 +185,12 @@ section h2 {
   <ul>
    
 
-    <li>
-      <strong>Zakirullah</strong>, Kamal Shahb,M. Motawi Khashanc,Bahaaeldin Abdallab, Thabet Abdeljawadb.
-      Theoretical and Computational Analysis of a Novel Fractional-Order Mathematical Model for HIV Transmission Dynamics. 
-      <em>Accepted for publication</em>.
-    </li>
+   <li>
+  <strong>Zakirullah</strong>, Kamal Shahb, M. Motawi Khashanc, Bahaaeldin Abdallab, Thabet Abdeljawadb.
+  Theoretical and Computational Analysis of a Novel Fractional-Order Mathematical Model for HIV Transmission Dynamics.
+  <em>Accepted for publication</em>.
+</li>
+
 
       <li>
       <strong>Zakirullah</strong>, Khashan, M. M., Abdalla, B., Abdeljawad, T.
