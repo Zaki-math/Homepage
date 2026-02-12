@@ -244,6 +244,16 @@ section h2 {
   &nbsp;|&nbsp;
   <a href="1-s2.0-S0960077925017163-main.pdf">PDF</a>
 </li>
+
+<li>
+  <strong>Zakirullah</strong>, Kamal Shah, M. Motawi Khashane, Bahaaeldin Abdalla, Thabet Abdeljawad.
+  Theoretical and computational analysis of a novel fractional-order mathematical model for HIV transmission dynamics.
+  <em>Ain Shams Engineering Journal</em>, Volume 17, 2026, 104019.
+  <a href="https://doi.org/10.1016/j.asej.2026.104019">DOI</a>
+  &nbsp;|&nbsp;
+  <a href="1-s2.0-S2090447926000468-main.pdf">PDF</a>
+</li>
+
     <li>
   <strong>Zakirullah.</strong>
   Stability and sensitivity insights into two-dose HPV vaccination effects and cervical cancer.
