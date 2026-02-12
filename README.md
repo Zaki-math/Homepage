@@ -180,11 +180,13 @@ section h2 {
     Matrix Theory, Numerical Algebra
   </p>
 </section>
+
 <section>
   <h2>Accepted Manuscripts</h2>
   <ul>
-<li>
-  <span class="myname">Zakirullah</span>, Kamal Shahb, M. Motawi Khashanc, Bahaaeldin Abdallab, Thabet Abdeljawadb.
+
+    <li>
+  <strong>Zakirullah</strong>, Kamal Shahb, M. Motawi Khashanc, Bahaaeldin Abdallab, Thabet Abdeljawadb.
   Theoretical and Computational Analysis of a Novel Fractional-Order Mathematical Model for HIV Transmission Dynamics.
   <em>Accepted for publication</em>.
 </li>
@@ -195,8 +197,8 @@ section h2 {
        <em>Accepted for publication</em>.
     </li>
   </ul>
-
 </section>
+
 <section>
   <h2>Manuscripts Under Review</h2>
   <ul>
