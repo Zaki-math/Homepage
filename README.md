@@ -185,11 +185,6 @@ section h2 {
   <h2>Accepted Manuscripts</h2>
   <ul>
 
-    <li>
-  <strong>Zakirullah</strong>, Kamal Shahb, M. Motawi Khashanc, Bahaaeldin Abdallab, Thabet Abdeljawadb.
-  Theoretical and Computational Analysis of a Novel Fractional-Order Mathematical Model for HIV Transmission Dynamics.
-  <em>Accepted for publication</em>.
-</li>
 
       <li>
       <strong>Zakirullah</strong>, Khashan, M. M., Abdalla, B., Abdeljawad, T.
@@ -202,6 +197,12 @@ section h2 {
 <section>
   <h2>Manuscripts Under Review</h2>
   <ul>
+
+      <li>
+  <strong>Zakirullah</strong>, Chen Lu, Shakirullah, Ozair Khan, Liang Li.
+  An Artificial Intelligence-Based Physics-Informed Neural Network for Nipah Virus Transmission Modeling.
+  <em>Under review</em>.
+</li>
     <li>
       <strong>Zakirullah</strong>, Shah, K., Wajed, A., Ahmad, S.
       Fractional-order mathematical model of Chikungunya virus with optimal control strategy.
