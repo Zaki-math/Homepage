@@ -252,7 +252,7 @@ section h2 {
   <em>Ain Shams Engineering Journal</em>, Volume 17, 2026, 104019.
   <a href="https://doi.org/10.1016/j.asej.2026.104019">DOI</a>
   &nbsp;|&nbsp;
-  <a href="main.pdf" target="_blank">PDF</a>
+  <a href="papers/main.pdf" target="_blank">PDF</a>
 </li>
 
     <li>
