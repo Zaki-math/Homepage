@@ -260,7 +260,7 @@ with Optimal Control and Artificial Neural Network Validation.
   <em>Networks and Heterogeneous Media</em>, AIMS Press, Volume 21(2), 2026, 496–530.
   <a href="https://doi.org/10.3934/nhm.2026023" target="_blank">DOI</a>
   &nbsp;|&nbsp;
-  <a href="main.pdf" target="_blank" download>PDF</a>
+  <a href="10.3934_nhm.2026023.pdf" target="_blank" download>PDF</a>
 </li>
     <li>
   <strong>Zakirullah.</strong>
