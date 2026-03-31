@@ -184,12 +184,11 @@ section h2 {
 <section>
   <h2>Accepted Manuscripts</h2>
   <ul>
-
-
-      <li>
-      <strong>Zakirullah</strong>, Khashan, M. M., Abdalla, B., Abdeljawad, T.
-      Tick-borne encephalitis transmission dynamics: a model-based strategy for epidemic control.
-       <em>Accepted for publication</em>.
+    <li>
+      <strong>Zakirullah</strong>, Shakir,U., Mohammadi, B,. Nouf A, A,. Zahir, S.
+      Fractal–Fractional Dynamics and Optimal Control of Herpes Simplex Virus
+with Stability and Sensitivity Analysis.
+       <em>Alexandria Engineering Journal</em>.
     </li>
   </ul>
 </section>
@@ -204,8 +203,9 @@ section h2 {
   <em>Under review</em>.
 </li>
     <li>
-      <strong>Zakirullah</strong>, Shah, K., Wajed, A., Ahmad, S.
-      Fractional-order mathematical model of Chikungunya virus with optimal control strategy.
+      <strong>Zakirullah</strong>, Chen, Lu., Mohammadi, B,. Nouf A, A,.
+      A Fractional-Order Model for Chikungunya Virus Transmission
+with Optimal Control and Artificial Neural Network Validation.
       <em>Under review</em>.
     </li>
 
@@ -254,7 +254,14 @@ section h2 {
   &nbsp;|&nbsp;
   <a href="main.pdf" target="_blank" download>PDF</a>
 </li>
-
+<li>
+  <strong>Zakirullah</strong>, Shakir Ullah, M. Motawi Khashan, Kamal Shah, Thabet Abdeljawad.
+  Novel tick-borne encephalitis transmission dynamics: A model-based strategy for epidemic control.
+  <em>Networks and Heterogeneous Media</em>, Volume 21(2), 2026, 496–530.
+  <a href="https://doi.org/10.3934/nhm.2026023" target="_blank">DOI</a>
+  &nbsp;|&nbsp;
+  <a href="main.pdf" target="_blank" download>PDF</a>
+</li>
     <li>
   <strong>Zakirullah.</strong>
   Stability and sensitivity insights into two-dose HPV vaccination effects and cervical cancer.
