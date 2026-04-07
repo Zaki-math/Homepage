@@ -180,7 +180,17 @@ section h2 {
     Matrix Theory, Numerical Algebra
   </p>
 </section>
-
+<section>
+  <h2>Reviewer Experience</h2>
+  <ul>
+    <li><i>Computational and Applied Mathematics</i> (Springer)</li>
+    <li><i>Frontiers in Applied Mathematics and Statistics</i> (Frontiers)</li>
+    <li><i>Research in Mathematics</i> (Taylor &amp; Francis)</li>
+    <li><i>Journal of Mathematics</i> (Wiley)</li>
+    <li><i>PLOS ONE</i></li>
+    <li><i>Asian Journal of Probability and Statistics</i></li>
+  </ul>
+</section>
 <section>
   <h2>Accepted Manuscripts</h2>
   <ul>
@@ -214,14 +224,6 @@ with Optimal Control and Artificial Neural Network Validation.
       Nonlocal epidemic model dynamics: stability and optimal control strategy.
       <em>Under review</em>.
     </li>
-
-    <li>
-      <strong>Zakirullah</strong>, Shakir,U., Mohammadi, B,. Nouf A, A,. Zahir, S.
-      Analysis of herpes simplex virus using ABC fractional-order dynamics.
-       <em>Under review</em>.
-    </li>
-
-  
 
     <li>
       <strong>Zakirullah</strong>, Lin, H., Liang, L.
