@@ -259,7 +259,7 @@ with Optimal Control and Artificial Neural Network Validation.
 <li>
   <strong>Zakirullah</strong>, Shakir Ullah, M. Motawi Khashan, Kamal Shah, Thabet Abdeljawad.
   Novel tick-borne encephalitis transmission dynamics: A model-based strategy for epidemic control.
-  <em>Networks and Heterogeneous Media</em>, AIMS Press, Volume 21(2), 2026, 496–530.
+  <em>Networks and Heterogeneous Media</em>, American Institute of Mathematical Sciences, Volume 21(2), 2026, 496–530.
   <a href="https://doi.org/10.3934/nhm.2026023" target="_blank">DOI</a>
   &nbsp;|&nbsp;
   <a href="10.3934_nhm.2026023.pdf" target="_blank" download>PDF</a>
