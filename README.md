@@ -208,8 +208,8 @@ with Stability and Sensitivity Analysis.
   <ul>
 
       <li>
-  <strong>Zakirullah</strong>, Chen Lu, Shakirullah, Ozair Khan, Liang Li.
-  An Artificial Intelligence-Based Physics-Informed Neural Network for Nipah Virus Transmission Modeling.
+  <strong>Zakirullah</strong>.
+  An Artificial Intelligence-Based Physics-Informed Neural Network Framework for Modeling and Optimal Control of Nipah Virus Transmission
   <em>Under review</em>.
 </li>
     <li>
@@ -220,8 +220,8 @@ with Optimal Control and Artificial Neural Network Validation.
     </li>
 
     <li>
-      <strong>Zakirullah</strong>, Shah, K., Ullah, S., Abdalla, B., Abdeljawad, T.
-      Nonlocal epidemic model dynamics: stability and optimal control strategy.
+      <strong>Zakirullah</strong>. Shakir,U. Mohammadi B, J. Nouf A, A,. 
+      Theoretical and Computational Insights into Novel Fractional-Order Modeling of Pine Wilt Disease with Stability and Optimal Control.
       <em>Under review</em>.
     </li>
 
