@@ -266,7 +266,7 @@ with Optimal Control and Artificial Neural Network Validation.
 </li>
 
 <li>
-  <strong>Zakirullah</strong>, Al Oweidi, K. F., Shah, K., Abdeljawad, T.
+   Al Oweidi, K. F., <strong>Zakirullah</strong>., Shah, K., Abdeljawad, T.
   Numerical simulations and Hyers-Ulam stability of a novel nonlocal anthropogenic cutaneous leishmaniasis mathematical model.
   <em>Mathematical Modelling and Numerical Simulations with Applications</em>,
   Volume 6, Issue 1, 2026, Article 2, Pages 26–58.
