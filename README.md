@@ -264,6 +264,16 @@ with Optimal Control and Artificial Neural Network Validation.
   &nbsp;|&nbsp;
   <a href="10.3934_nhm.2026023.pdf" target="_blank" download>PDF</a>
 </li>
+
+<li>
+  <strong>Zakirullah</strong>, Al Oweidi, K. F., Shah, K., Abdeljawad, T.
+  Numerical simulations and Hyers-Ulam stability of a novel nonlocal anthropogenic cutaneous leishmaniasis mathematical model.
+  <em>Mathematical Modelling and Numerical Simulations with Applications</em>,
+  Volume 6, Issue 1, 2026, Article 2, Pages 26–58.
+  <a href="https://doi.org/10.53391/2791-8564.1017" target="_blank">DOI</a>
+  &nbsp;|&nbsp;
+  <a href="https://mmnsa.researchcommons.org/journal/vol6/iss1/2" target="_blank">Link</a>
+</li>
     <li>
   <strong>Zakirullah.</strong>
   Stability and sensitivity insights into two-dose HPV vaccination effects and cervical cancer.
