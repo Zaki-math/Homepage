@@ -126,7 +126,11 @@ section h2 {
 <section>
   <h2>Research</h2>
   <p>
-   I work in biomathematics, focusing on dynamical systems, ODEs and PDEs, fractals, mathematical modeling, artificial intelligence, and deep neural networks, with applications to infectious diseases, phage dynamics, and fishery models, addressing both qualitative and quantitative analyses.
+   I work in applied mathematics, focusing on dynamical systems, ordinary and partial differential equations, fractal
+analysis, and mathematical modeling. My research combines optimal control theory, artificial intelligence, and deep
+neural networks to better understand and optimize complex systems. I mainly apply these methods to real-world
+problems such as mathematical modeling dynamics, with stability analysis, sensitivity analysis, and numerical
+simulations.
   </p>
 </section>
 
