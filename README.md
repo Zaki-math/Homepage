@@ -126,7 +126,7 @@ section h2 {
 <section>
   <h2>Research</h2>
   <p>
-   I work in applied mathematics, focusing on dynamical systems, ordinary and partial differential equations, fractal
+   I work in biomathematics, focusing on dynamical systems, ordinary and partial differential equations, fractal
 analysis, and mathematical modeling. My research combines optimal control theory, artificial intelligence, and deep
 neural networks to better understand and optimize complex systems. I mainly apply these methods to real-world
 problems such as mathematical modeling dynamics, with stability analysis, sensitivity analysis, and numerical
