@@ -188,6 +188,7 @@ simulations.
   <h2>Reviewer Experience</h2>
   <ul>
     <li><i>Computational and Applied Mathematics</i> (Springer)</li>
+    <li><i>Scientific African</i> (Elsevier)</li>
     <li><i>Frontiers in Applied Mathematics and Statistics</i> (Frontiers)</li>
     <li><i>Research in Mathematics</i> (Taylor &amp; Francis)</li>
     <li><i>Journal of Mathematics</i> (Wiley)</li>
