@@ -205,6 +205,12 @@ simulations.
 with Stability and Sensitivity Analysis.
        <em>Alexandria Engineering Journal</em>.
     </li>
+     <li>
+      <strong>Zakirullah</strong>, Chen, Lu., Mohammadi, B,. Nouf A, A,.
+      A Fractional-Order Model for Chikungunya Virus Transmission
+with Optimal Control and Artificial Neural Network Validation.
+      <em>Fractal and Fractional</em>.
+    </li>
   </ul>
 </section>
 
@@ -217,12 +223,7 @@ with Stability and Sensitivity Analysis.
   An Artificial Intelligence-Based Physics-Informed Neural Network Framework for Modeling and Optimal Control of Nipah Virus Transmission
   <em>Under review</em>.
 </li>
-    <li>
-      <strong>Zakirullah</strong>, Chen, Lu., Mohammadi, B,. Nouf A, A,.
-      A Fractional-Order Model for Chikungunya Virus Transmission
-with Optimal Control and Artificial Neural Network Validation.
-      <em>Under review</em>.
-    </li>
+   
 
     <li>
       <strong>Zakirullah</strong>. Shakir,U. Mohammadi B, J. Nouf A, A,. 
@@ -295,7 +296,7 @@ with Optimal Control and Artificial Neural Network Validation.
   Volume 16, Issue 9, September 2025, Article 103519.
   <a href="https://doi.org/10.1016/j.asej.2025.103519" target="_blank">DOI</a>
   &nbsp;|&nbsp;
-  <a href="1-s2.0-S0960077925017163-main.pdf">PDF</a>
+  <a href="1-s2.0-S2090447925002606-main.pdf">PDF</a>
 </li>
 
 
