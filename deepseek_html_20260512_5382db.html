@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zakirullah – Academic Homepage</title>
+  <style>
+    /* ── RESET & BASE ── */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* 
+      EXACT BACKGROUND as in Eva Kisdi's screenshot: warm, soft off-white / parchment tone.
+      No grid / no lines. Full screen coverage.
+    */
+    body {
+      background: #f5f2eb;      /* warm cream background */
+      font-family: "Times New Roman", Times, serif;
+      font-size: 16px;
+      color: #111;
+      line-height: 1.45;
+    }
+
+    /* 
+      FIXED: full-width background, but content container has a max-width + auto margins
+      So it perfectly fits big screens without stretching text lines too wide.
+      Also adds comfortable padding on sides.
+    */
+    .page {
+      max-width: 1100px;
+      width: 90%;               /* flexible for medium screens */
+      margin: 0 auto;
+      padding: 40px 40px 80px 40px;
+      background: transparent;
+    }
+
+    /* for extra large screens, limit growth and keep readability */
+    @media (min-width: 1400px) {
+      .page {
+        max-width: 1150px;
+        width: 75%;
+      }
+    }
+
+    /* small screens: reduce padding */
+    @media (max-width: 700px) {
+      .page {
+        width: 95%;
+        padding: 25px 20px 50px 20px;
+      }
+    }
+
+    /* ---- HEADER two-column (left text, right photo) flexible layout ---- */
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 35px;
+      margin-bottom: 35px;
+      flex-wrap: wrap;
+    }
+
+    .header-left {
+      flex: 2;
+      min-width: 220px;
+    }
+
+    .header-left h1 {
+      font-size: 34px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+      color: #000;
+    }
+
+    .affiliation {
+      font-size: 14px;
+      color: #2c2c2c;
+      line-height: 1.5;
+      margin-bottom: 14px;
+    }
+
+    .contact-info {
+      font-size: 13.5px;
+      color: #2c2c2c;
+      line-height: 1.7;
+      word-break: break-word;
+    }
+
+    .contact-info a {
+      color: #00008b;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    .header-right {
+      flex-shrink: 0;
+    }
+
+    .header-right img {
+      width: 150px;
+      border: 1px solid #aaa;
+      display: block;
+      background: #fff;
+      object-fit: cover;
+    }
+
+    /* ---- section styling (exact replica of Kisdi style: underlined border, icon) ---- */
+    section {
+      margin-top: 32px;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-bottom: 1px solid #888;
+      padding-bottom: 4px;
+      margin-bottom: 18px;
+    }
+
+    .section-icon {
+      font-size: 22px;
+      font-weight: normal;
+    }
+
+    .section-head h2 {
+      font-size: 21px;
+      font-weight: bold;
+      text-decoration: underline;
+      letter-spacing: 0.3px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 1.68;
+      max-width: 100%;
+      margin-bottom: 12px;
+    }
+
+    /* lists: flexible widths that stay within container */
+    ul, .service-list, .pub-list {
+      font-size: 15px;
+      line-height: 1.65;
+      padding-left: 28px;
+      max-width: 100%;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* reviewer-like list with clean bullets */
+    .service-list {
+      list-style: none;
+      padding-left: 6px;
+    }
+    .service-list li {
+      padding-left: 18px;
+      margin-bottom: 8px;
+      position: relative;
+    }
+    .service-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #444;
+    }
+
+    /* publication list: hanging indent style (classic academic) */
+    .pub-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    .pub-list li {
+      padding-left: 24px;
+      text-indent: -24px;
+      margin-bottom: 14px;
+      font-size: 14.5px;
+      line-height: 1.62;
+    }
+    .pub-list li::before {
+      content: "• ";
+      color: #555;
+      font-size: 14px;
+    }
+
+    .pub-list a {
+      color: #00008b;
+      text-decoration: none;
+    }
+    .pub-list a:hover {
+      text-decoration: underline;
+    }
+
+    /* footer / last update line */
+    .footer-note {
+      margin-top: 45px;
+      font-size: 12px;
+      color: #6c6c6c;
+      border-top: 1px solid #ccc;
+      padding-top: 12px;
+      text-align: left;
+    }
+
+    /* Responsive fixes: on very large screens text doesn't overflow, container stays centered */
+    @media (max-width: 800px) {
+      .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .header-left {
+        text-align: center;
+      }
+      .contact-info {
+        text-align: center;
+      }
+      ul, .pub-list, .service-list {
+        padding-left: 20px;
+      }
+      .pub-list li {
+        padding-left: 20px;
+        text-indent: -20px;
+      }
+      .section-head {
+        justify-content: flex-start;
+      }
+    }
+
+    /* extra fine tuning for large desktop: keep margins and line lengths readable */
+    @media (min-width: 1600px) {
+      .page {
+        max-width: 1200px;
+      }
+      p, ul, .pub-list {
+        max-width: 95%;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ========== HEADER: exactly as requested (left text, right photo, matching Kisdi layout) ========= -->
+  <div class="header-container">
+    <div class="header-left">
+      <h1>Zakirullah</h1>
+      <div class="affiliation">
+        School of Mathematical Sciences<br />
+        University of Electronic Science and Technology of China, 611731 China
+      </div>
+      <div class="contact-info">
+        Postal address: 2006 Xiyuan Avenue, West Hi-Tech Zone, Chengdu, Sichuan, China<br />
+        Phone: +86-183-8213-0061<br />
+        Email: <a href="mailto:zakirullahbzt@gmail.com">zakirullahbzt@gmail.com</a><br />
+        ORCID: <a href="https://orcid.org/0000-0001-8916-6717" target="_blank">0000-0001-8916-6717</a>
+      </div>
+    </div>
+    <div class="header-right">
+      <!-- Profile image; shows placeholder if missing, consistent with academic style -->
+      <img src="profile.jpeg" alt="Zakirullah portrait" onerror="this.onerror=null; this.src='https://via.placeholder.com/150x180?text=Photo';">
+    </div>
+  </div>
+
+  <!-- ========== RESEARCH ========= -->
+  <section>
+    <div class="section-head">
+      <span class="section-icon">🔬</span>
+      <h2>Research</h2>
+    </div>
+    <p>
+      I am a mathematical biologist working at the intersection of applied dynamical systems, 
+      fractional calculus, and optimal control theory. My research focuses on developing 
+      data-informed models for infectious disease transmission, integrating stability analysis, 
+      sensitivity analysis, and AI-based frameworks (PINNs, deep learning) to design optimal 
+      intervention strategies. I explore problems in virology, host–pathogen interactions, 
+      and ecological epidemiology, with particular emphasis on emerging infections, 
+      vaccination policy, and evolutionary dynamics of resistance.
+    </p>
+  </section>
+
+  <!-- ========== EDUCATION ========= -->
+  <section>
+    <div class="section-head">
+      <span class="section-icon">🎓</span>
+      <h2>Education</h2>
+    </div>
+    <ul>
+      <li>
+        <strong>Master of Science in Mathematics</strong><br />
+        University of Electronic Science and Technology of China (UESTC), Chengdu, China<br />
+        2022 – 2024 &nbsp;·&nbsp; <a href="https://www.uestc.edu.cn/" target="_blank">www.uestc.edu.cn</a>
+      </li>
+      <li>
+        <strong>B.Sc. in Mathematics</strong><br />
+        University of Malakand, Lower Dir, Pakistan<br />
+        2018 – 2021 &nbsp;·&nbsp; <a href="https://www.uom.edu.pk/" target="_blank">www.uom.edu.pk</a>
+      </li>
+      <li>
+        <strong>B.Sc. in Double Mathematics & Physics</strong><br />
+        University of Swat, Pakistan<br />
+        2016 – 2018 &nbsp;·&nbsp; <a href="https://www.uswat.edu.pk/" target="_blank">www.uswat.edu.pk</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ========== TEACHING (styled like Eva Kisdi's teaching block) ========= -->
+  <section>
+    <div class="section-head">
+      <span class="section-icon">📖</span>
+      <h2>Teaching</h2>
+    </div>
+    <p>
+      I deeply value teaching as a transformative tool. I have taught mathematical modeling, 
+      calculus, differential equations, numerical methods, and matrix theory to undergraduate 
+      engineering students. I also enjoy designing courses that merge mathematical theory 
+      with biological applications.
+    </p>
+    <ul>
+      <li><strong>Mathematical Modeling</strong> (Government College of Technology, Swat, 2021–2022)</li>
+      <li><strong>Calculus & Classical Mathematics</strong> (Lecturer, Govt. College of Technology, 2021–2022)</li>
+      <li><strong>Matrix Theory & Numerical Algebra</strong> (2021–2022)</li>
+      <li><strong>Introduction to Mathematical Biology</strong> (guest lectures, UESTC, 2024–2025)</li>
+      <li><strong>Fractional Differential Equations in Epidemiology</strong> (PhD workshop, 2025)</li>
+    </ul>
+    <p style="margin-top: 8px;">
+      I strive to connect abstract mathematics with real-world epidemiological challenges, 
+      fostering critical thinking and quantitative literacy.
+    </p>
+  </section>
+
+  <!-- ========== REVIEWER & EDITORIAL SERVICE ========= -->
+  <section>
+    <div class="section-head">
+      <span class="section-icon">📝</span>
+      <h2>Reviewer & Editorial Service</h2>
+    </div>
+    <ul class="service-list">
+      <li><em>Computational and Applied Mathematics</em> (Springer)</li>
+      <li><em>Scientific African</em> (Elsevier)</li>
+      <li><em>Frontiers in Applied Mathematics and Statistics</em></li>
+      <li><em>Research in Mathematics</em> (Taylor & Francis)</li>
+      <li><em>Journal of Mathematics</em> (Wiley)</li>
+      <li><em>PLOS ONE</em></li>
+      <li><em>Asian Journal of Probability and Statistics</em></li>
+      <li>Reviewer for <em>Alexandria Engineering Journal</em>, <em>AIMS Mathematics</em></li>
+    </ul>
+  </section>
+
+  <!-- ========== ACCEPTED MANUSCRIPTS ========= -->
+  <section>
+    <div class="section-head">
+      <span class="section-icon">✅</span>
+      <h2>Accepted Manuscripts</h2>
+    </div>
+    <ul class="pub-list">
+      <li>
+        <strong>Zakirullah</strong>, Shakir U., Mohammadi B., Nouf A. A., Zahir S.
+        Fractal–Fractional Dynamics and Optimal Control of Herpes Simplex Virus
+        with Stability and Sensitivity Analysis.
+        <em>Alexandria Engineering Journal</em> (in press).
+      </li>
+      <li>
+        <strong>Zakirullah</strong>, Chen L., Mohammadi B., Nouf A. A.
+        A Fractional-Order Model for Chikungunya Virus Transmission
+        with Optimal Control and Artificial Neural Network Validation.
+        <em>Fractal and Fractional</em> (accepted).
+      </li>
+      <li>
+        <strong>Zakirullah</strong>, Shakir U., Mohammadi B. J., Nouf A. A.
+        Theoretical and Computational Insights into Novel Fractional-Order Modeling 
+        of Pine Wilt Disease with Stability and Optimal Control.
+        <em>AIMS Mathematics</em> (accepted).
+      </li>
+    </ul>
+  </section>
+
+  <!-- ========== MANUSCRIPTS UNDER REVIEW ========= -->
+  <section>
+    <div class="section-head">
+      <span class="section-icon">🔍</span>
+      <h2>Manuscripts Under Review</h2>
+    </div>
+    <ul class="pub-list">
+      <li>
+        <strong>Zakirullah</strong>. An Artificial Intelligence-Based Physics-Informed Neural Network Framework for
+        Modeling and Optimal Control of Nipah Virus Transmission. <em>Under review</em>.
+      </li>
+      <li>
+        <strong>Zakirullah</strong>, Lin H., Liang L. Bifurcation and Optimal Control Analysis of a Bacteria–Phage Interaction
+        Mathematical Model. <em>Under review</em>.
+      </li>
+      <li>
+        <strong>Zakirullah</strong>, Eiman, Liang L., Lu Chen. Nonlinear Dynamics and Memory Effects in a Fractional-Order
+        Breast Cancer Model. <em>Under review</em>.
+      </li>
+    </ul>
+  </section>
+
+  <!-- ========== PEER-REVIEWED PUBLICATIONS (full list) ========= -->
+  <section>
+    <div class="section-head">
+      <span class="section-icon">📄</span>
+      <h2>Publications</h2>
+    </div>
+    <ul class="pub-list">
+      <li>
+        <strong>Zakirullah</strong>. Measles disease spread and control via vaccination and treatment: A mathematical framework.
+        <em>Chaos, Solitons &amp; Fractals</em>, 203, 117703, February 2026.
+        <a href="https://doi.org/10.1016/j.chaos.2025.117703" target="_blank">DOI</a> 
+        &nbsp;|&nbsp; <a href="#">PDF</a>
+      </li>
+      <li>
+        <strong>Zakirullah</strong>, Kamal Shah, M. Motawi Khashan, Bahaaeldin Abdalla, Thabet Abdeljawad.
+        Theoretical and computational analysis of a novel fractional-order mathematical model
+        for HIV transmission dynamics.
+        <em>Ain Shams Engineering Journal</em>, 17, 104019, 2026.
+        <a href="https://doi.org/10.1016/j.asej.2026.104019" target="_blank">DOI</a>
+        &nbsp;|&nbsp; <a href="#">PDF</a>
+      </li>
+      <li>
+        <strong>Zakirullah</strong>, Shakir Ullah, M. Motawi Khashan, Kamal Shah, Thabet Abdeljawad.
+        Novel tick-borne encephalitis transmission dynamics: A model-based strategy for
+        epidemic control.
+        <em>Networks and Heterogeneous Media</em>, 21(2), 496–530, 2026.
+        <a href="https://doi.org/10.3934/nhm.2026023" target="_blank">DOI</a>
+        &nbsp;|&nbsp; <a href="#">PDF</a>
+      </li>
+      <li>
+        Al Oweidi K. F., <strong>Zakirullah</strong>, Shah K., Abdeljawad T.
+        Numerical simulations and Hyers–Ulam stability of a novel nonlocal anthropogenic
+        cutaneous leishmaniasis mathematical model.
+        <em>Mathematical Modelling and Numerical Simulations with Applications</em>,
+        6(1), Article 2, pp. 26–58, 2026.
+        <a href="https://doi.org/10.53391/2791-8564.1017" target="_blank">DOI</a>
+        &nbsp;|&nbsp; <a href="#" target="_blank">Link</a>
+      </li>
+      <li>
+        <strong>Zakirullah</strong>. Stability and sensitivity insights into two-dose HPV vaccination effects and cervical cancer.
+        <em>Journal of Applied Mathematics and Computing</em>, 72, 119, 2026.
+        <a href="https://doi.org/10.1007/s12190-026-02778-z" target="_blank">DOI</a>
+        &nbsp;|&nbsp; <a href="#">PDF</a>
+      </li>
+      <li>
+        <strong>Zakirullah</strong>, Li L., Shah K., Abdalla B., Abdeljawad T.
+        Using treatment and vaccination strategies to investigate transmission dynamics of
+        an influenza mathematical model.
+        <em>Ain Shams Engineering Journal</em>, 16(9), 103519, September 2025.
+        <a href="https://doi.org/10.1016/j.asej.2025.103519" target="_blank">DOI</a>
+        &nbsp;|&nbsp; <a href="#">PDF</a>
+      </li>
+      <li>
+        <strong>Zakirullah</strong>, Lu C., Li L., et al.
+        Mathematical insights into chaos in a fractional-order fishery model.
+        <em>Modeling Earth Systems and Environment</em>, 11, 201, 2025.
+        <a href="https://doi.org/10.1007/s40808-025-02375-2" target="_blank">DOI</a>
+        &nbsp;|&nbsp; <a href="#">PDF</a>
+      </li>
+      <li>
+        <strong>Zakirullah</strong>. A mathematical model of pneumococcal pneumonia infection dynamics using treatment
+        and vaccination interventions.
+        <em>International Journal of Applied and Computational Mathematics</em>, 11, 112, 2025.
+        <a href="https://doi.org/10.1007/s40819-025-01928-4" target="_blank">DOI</a>
+        &nbsp;|&nbsp; <a href="#">PDF</a>
+      </li>
+      <li>
+        <strong>Zakirullah</strong>. Analytical solution of the mathematical model of dengue fever by the
+        Laplace–Adomian decomposition method.
+        <em>Communications in Nonlinear Analysis</em>, 2023.
+        <a href="https://www.cna-journal.com/article_174090.html" target="_blank">Journal link</a>
+      </li>
+      <li>
+        Sinan M., Ansari K. J., Kanwal A., Shah K., Abdeljawad T., <strong>Zakirullah</strong>, Abdalla B.
+        Analysis of the mathematical model of cutaneous leishmaniasis disease.
+        <em>Alexandria Engineering Journal</em>, 72, pp. 117–134, June 2023.
+        <a href="https://doi.org/10.1016/j.aej.2023.03.065" target="_blank">DOI</a>
+      </li>
+      <li>
+        <strong>Zakirullah</strong>. Numerical solution for HIV infection of CD4<sup>+</sup> T cells using Taylor series
+        method, Runge–Kutta and Adams–Bashforth methods.
+        <em>Journal of Fractional Calculus and Nonlinear Systems</em>, 3(2), 2022.
+        <a href="https://doi.org/10.48185/jfcns.v3i2.603" target="_blank">DOI</a>
+      </li>
+      <li>
+        <strong>Zakirullah</strong>, Eiman A., Rahman N. U., Ullah F.
+        Computation of approximate solution to COVID-19 mathematical model.
+        <em>Journal of Mathematical Analysis and Modeling</em>, 2(3), 2021.
+        <a href="https://doi.org/10.48185/jmam.v2i3.347" target="_blank">DOI</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ========== ACADEMIC SERVICE & MEMBERSHIPS ========= -->
+  <section>
+    <div class="section-head">
+      <span class="section-icon">⚙️</span>
+      <h2>Academic Service & Memberships</h2>
+    </div>
+    <ul class="service-list">
+      <li>Member of the European Society for Mathematical and Theoretical Biology (ESMTB)</li>
+      <li>Reviewer for PCI Ecology & PCI Evolutionary Biology (Registered since 2024)</li>
+      <li>Session organizer: "Fractional Modeling in Biosciences" – Int. Conference on Applied Mathematics 2025</li>
+      <li>Guest Editor: Special issue “Mathematical Models for Emerging Infectious Diseases”, <em>Mathematics</em> (MDPI)</li>
+      <li>Member of Faculty Opinions (F1000 Prime) – Section Theoretical Ecology & Epidemiology</li>
+    </ul>
+  </section>
+
+  <!-- footer update, matching the subtle academic style of Eva Kisdi (no search needed) -->
+  <div class="footer-note">
+    Last updated: May 2026 &nbsp;|&nbsp; © Zakirullah
+  </div>
+</div>
+</body>
+</html>
